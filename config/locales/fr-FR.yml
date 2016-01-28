@@ -2,9 +2,9 @@
 fr-FR:
   language_name: Française
 # layouts/application
-  new_ticket: Nouveau Billet
+  new_ticket: Nouveau Ticket
   inbox: Boîte de réception
-  mine: Mes Billets
+  mine: Mes Tickets
   closed_tickets: Fermé
   trashed: Corbeille
   users: Utilisateurs
@@ -46,16 +46,16 @@ fr-FR:
 
 # tickets/index
   count_tickets:
-    one: '%{count} billet'
-    other: '%{count} billets'
+    one: '%{count} ticket'
+    other: '%{count} tickets'
   count_tickets_containing:
-    one: '%{count} billet contenant'
-    other: '%{count} billets contenant'
+    one: '%{count} ticket contenant'
+    other: '%{count} tickets contenant'
   priority: Priorité
   replies: réponses
   no_subject: Aucun sujet
   unassigned: Non affecté
-  no_tickets_found: Aucun billet trouvé.
+  no_tickets_found: Aucun ticket trouvé.
   search: Recherche
   filter: Filtre
   minutes: minutes
@@ -94,7 +94,7 @@ fr-FR:
   change_status: Changer le statut
 
 # tickets/_change_assignee_form
-  change_assignee: Attribuer un billet
+  change_assignee: Attribuer un ticket
   assign: Attribuer
 
 # tickets/locks/create
@@ -116,17 +116,17 @@ fr-FR:
   reply_by: Répondre par
 
 # ticket_mailer/notify_assigned.text.erb
-  ticket_assigned: Un billet de support vous a été attribué
+  ticket_assigned: Un ticket de support vous a été attribué
 
 # ticket_mailer/notify_priority_changed.text.erb
-  ticket_priority_changed: Priorité modifié pour le billet
+  ticket_priority_changed: Priorité modifié pour le ticket
 
 # ticket_mailer/notify_status_changed.text.erb
-  ticket_status_modified: Statut modifié pour le billet
-  tickets_status_modified: Statut modifié pour les billets
+  ticket_status_modified: Statut modifié pour le ticket
+  tickets_status_modified: Statut modifié pour les tickets
 
 # notification_mailer/new_ticket
-  view_new_ticket: Voir le nouveau billet
+  view_new_ticket: Voir le nouveau ticket
 # notification_mailer/new_reply
   new_reply: Nouvelle réponse
   view_new_reply: Voir nouvelle réponse
@@ -154,11 +154,11 @@ fr-FR:
   account_settings: Paramètres du compte
   only_fill_in_passwords_when_modifying: Remplir ces deux champs seulement si vous souhaitez modifier votre mot de passe.
   user_is_an_agent: L'utilisateur est un agent
-  receive_new_ticket_notifications: Recevoir les notifications des nouveaux billets
+  receive_new_ticket_notifications: Recevoir les notifications des nouveaux tickets
   email_settings: Paramètres du courriel
   save: Enregister
   access_control: Contrôle d'accés
-  have_access_to_label: L'utilisateur a accés à tous les billets avec l'une de ces étiquettes.
+  have_access_to_label: L'utilisateur a accés à tous les tickets avec l'une de ces étiquettes.
 
 # settings/edit
   change_settings: Modifier les paramètres
@@ -177,11 +177,11 @@ fr-FR:
   user_removed: Utilisateur supprimé
 
 # controllers/tickets
-  ticket_added: Billet ajouté
-  ticket_updated: Billet mise à jour
+  ticket_added: Ticket ajouté
+  ticket_updated: Ticket mise à jour
 
 # controllers/tickets/deleted
-  trash_emptied: Tous les billets ont été supprimés de la corbeille
+  trash_emptied: Tous les tickets ont été supprimés de la corbeille
 
 # controllers/replies
   reply_added: Réponse ajouté
