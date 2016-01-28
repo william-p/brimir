@@ -105,7 +105,7 @@ class NotificationMailer < ActionMailer::Base
     else
       @locale = Rails.configuration.i18n.default_locale
     end
-    title = I18n::translate(:new_reply, locale: @locale) + ': ' + reply.ticket.subject
+    title = reply.ticket.subject
 
     add_attachments(reply)
     add_reference_message_ids(reply)
